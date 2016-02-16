@@ -1,0 +1,56 @@
+{
+	"license": "MIT",
+	"name": "style-block-loader",
+	"version": "0.0.1",
+	"keywords": ["webpack", "loader", "style", "style block"],
+	"description": "Webpack loader for extracting style block content from html",
+	"homepage": "http://www.hictech.com",
+	"readme": "ERROR: No README data found!",
+	"author": {
+		"name": "Andrea Cardamone"
+	},
+
+	"main": "./index.js",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/AndreaCardamone/style-block-loader.git"
+	},
+	"maintainers": [
+		{
+			"name": "Andrea Cardamone",
+			"email": "andrea.cardam@gmail.com"
+		}
+	],
+	"contributors": [
+	],
+	
+	"bugs": {
+		"url": "https://github.com/AndreaCardamone/style-block-loader/issues"
+	},
+	
+	"dependencies": {
+		"cheerio": "^0.20.0"
+	},  
+	"devDependencies": {
+	},
+	
+	"engines": {
+		"node": ">=4.1.1",
+		"npm": ">=2.14.4"
+	},
+	
+	"_id": "style-block-loader@0.0.1",
+	"_from": "style-block-loader@0.0.1",
+	"_npmVersion": "2.14.4",
+	"_nodeVersion": "4.1.1",
+	"_npmUser": {
+		"name": "nanosoft",
+		"email": "andrea.cardam@gmail.com"
+	}
+}
