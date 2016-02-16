@@ -5,7 +5,7 @@
 	"keywords": ["webpack", "loader", "style", "style block"],
 	"description": "Webpack loader for extracting style block content from html",
 	"homepage": "http://www.hictech.com",
-	"readme": "ERROR: No README data found!",
+	"readme": "https://github.com/AndreaCardamone/style-block-loader/blob/master/README.md",
 	"author": {
 		"name": "Andrea Cardamone"
 	},
