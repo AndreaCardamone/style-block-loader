@@ -1,11 +1,10 @@
 {
 	"license": "MIT",
 	"name": "style-block-loader",
-	"version": "0.0.3",
+	"version": "0.0.5",
 	"keywords": ["webpack", "loader", "style", "style block"],
 	"description": "Webpack loader for extracting style block content from html",
 	"homepage": "http://www.hictech.com",
-	"readme": "https://github.com/AndreaCardamone/style-block-loader/blob/master/README.md",
 	"author": {
 		"name": "Andrea Cardamone"
 	},
