@@ -1,0 +1,35 @@
+{
+  "license": "MIT",
+  "name": "style-block-test",
+  "version": "0.0.1",
+  "author": "Andrea Cardamone",
+  "description": "This example extracts the style block, compile the with less and merge into single bundle file",
+  "keywords": [
+    "style",
+    "style block",
+    "webpack"
+  ],
+  "scripts": {
+    "test": "webpack --config entry.js"
+  },
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin ": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "glob": "^7.0.0",
+    "less-loader": "^2.2.2",
+    "path": "^0.12.7",
+    "raw-loader": "^0.5.1",
+    "style-block-loader": "0.0.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.13",
+    "webpack-dev-middleware": "^1.5.1"
+  },
+  "devDependencies": {
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "less": "^2.6.0",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-alpha.14"
+  }
+}

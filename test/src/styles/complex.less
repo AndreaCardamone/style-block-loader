@@ -1,0 +1,45 @@
+// LESS has a special type of ruleset which
+// acts sort of like a function: the
+// parametric mixin
+
+//The parametric mixin '.border-radius'
+.border-radius (@radius) {
+    border-radius: @radius;
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+}
+
+// Which can be used like this:
+#header {
+    .border-radius(4px);
+}
+.button {
+    .border-radius(6px);  
+}
+
+
+// A parametric mixin with a default value:
+.border-radius-with-default(@radius: 5px) {
+    border-radius: @radius;
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+}
+
+// Which can be used like this:
+#content {
+    .border-radius-with-default;
+}
+
+// You can also use a parametric mixin
+// without any parameters. This is useful if
+// you don't want the original mixin itself 
+// in the css output
+.wrap () {
+    text-wrap: wrap;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    word-wrap: break-word;
+}
+pre { 
+    .wrap; 
+}
