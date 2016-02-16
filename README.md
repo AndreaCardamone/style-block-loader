@@ -33,7 +33,7 @@ module.exports = {
 
 ## More complex example
 Another common use of style-block-loader is with the
-[ExtractTextPlugin]extract-text-webpack-plugin like this.
+[extract-text-webpack-plugin](https://www.npmjs.com/package/extract-text-webpack-plugin) like this.
 
 
 ``` javascript
@@ -64,11 +64,10 @@ module.exports = {
     
     module: {
         loaders: [
-            //{ test: /\.html$/, loader: extractStyle.extract("raw", "css?minimize!less!style-block")  },
-            { test: /\.html$/, loader: "css?minimize!less!style-block"  },
-            { test: /\.css$/,  loader: extractCSS.extract("style", "css?minimize")             },
-            { test: /\.less/,  loader: extractLESS.extract("style", "css?minimize!less") },
-            { test: /\.png$/,  loader: "file-loader"                                         }
+            { test: /\.html$/, loader: extractStyle.extract("raw", "css?minimize!less!style-block") },
+            { test: /\.css$/,  loader: extractCSS.extract("style", "css?minimize")                  },
+            { test: /\.less/,  loader: extractLESS.extract("style", "css?minimize!less")            },
+            { test: /\.png$/,  loader: "file-loader"                                                }
         ]
     },
     
