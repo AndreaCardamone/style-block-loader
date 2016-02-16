@@ -1,7 +1,7 @@
 {
 	"license": "MIT",
 	"name": "style-block-loader",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"keywords": ["webpack", "loader", "style", "style block"],
 	"description": "Webpack loader for extracting style block content from html",
 	"homepage": "http://www.hictech.com",
