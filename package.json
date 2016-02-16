@@ -43,14 +43,5 @@
 	"engines": {
 		"node": ">=4.1.1",
 		"npm": ">=2.14.4"
-	},
-	
-	"_id": "style-block-loader@0.0.1",
-	"_from": "style-block-loader@0.0.1",
-	"_npmVersion": "2.14.4",
-	"_nodeVersion": "4.1.1",
-	"_npmUser": {
-		"name": "nanosoft",
-		"email": "andrea.cardam@gmail.com"
 	}
 }
