@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "name": "style-block-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Andrea Cardamone",
   "description": "This example extracts the style block, compile the with less and merge into single bundle file",
   "keywords": [
@@ -9,6 +9,8 @@
     "style block",
     "webpack"
   ],
+  "files": [
+  ]
   "scripts": {
     "test": "webpack --config entry.js"
   },
