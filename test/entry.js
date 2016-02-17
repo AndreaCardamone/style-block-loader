@@ -27,7 +27,7 @@ module.exports = {
         loaders: [
             { test: /\.html$/, loader: extractStyle.extract("raw", "css?minimize!less!style-block") },
             { test: /\.css$/,  loader: extractCSS.extract("style", "css?minimize")                  },
-            { test: /\.less/,  loader: extractLESS.extract("style", "css?minimize!less")            },
+            { test: /\.less$/,  loader: extractLESS.extract("style", "css?minimize!less")            },
             { test: /\.png$/,  loader: "file-loader"                                                }
         ]
     },
