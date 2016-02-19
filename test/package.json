@@ -9,10 +9,8 @@
     "style block",
     "webpack"
   ],
-  "files": [
-  ]
   "scripts": {
-    "test": "webpack --config entry.js"
+    "test": "webpack --config entry.js --watch"
   },
   "dependencies": {
     "css-loader": "^0.23.1",
