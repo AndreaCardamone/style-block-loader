@@ -1,11 +1,9 @@
 # style block loader for webpack
 
 ## installation
-
 `npm install style-block-loader --save-dev`
 
 ## Usage
-
 [Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
 
 ``` javascript
@@ -13,7 +11,6 @@ var home_style = require("style-block!./src/pages/home.html")
 // => returns raw css code from the first style block of html file
 ```
 ### Example config with other loaders
-
 This is an example of a [webpack](https://www.npmjs.com/package/webpack)
 configuration that uses the style-block loader in conjucntion with
 [css-loader](https://www.npmjs.com/package/css-loader) and
@@ -29,6 +26,22 @@ module.exports = {
         ]
     }
 };
+```
+
+### Example config with less filter
+The [less](http://lesscss.org/) filter allows lo load only style script with "stylesheet/less" as rel attribute values.
+for example an HTML page with this style block.
+
+``` html
+<style tyle="text/css" rel="stylesheet/less">
+/** less code */
+</style>
+```
+
+is compiled with this webpack configuration.
+
+``` javascript
+"css?minimize!less!style-block"
 ```
 
 ## More complex example
