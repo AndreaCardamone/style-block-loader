@@ -41,7 +41,7 @@ for example an HTML page with this style block.
 is compiled with this webpack configuration.
 
 ``` javascript
-"css?minimize!less!style-block"
+"css?minimize!less!style-block?filter=less"
 ```
 
 ## More complex example
